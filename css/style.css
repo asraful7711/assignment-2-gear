@@ -69,7 +69,7 @@ body{
  prebook part start  
  ----------------*/
 
-.conatiner{
+.container{
     margin-left: 80px;
     margin-right: 80px;
 }
@@ -318,3 +318,6 @@ footer{
 /*-----------------
  footer part start 
  ------------------- */
+ /*-------------
+  media queries
+ -------------- */
