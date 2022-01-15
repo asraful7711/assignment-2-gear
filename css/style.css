@@ -122,12 +122,12 @@ body{
 
 /* prebook part end */
 
-/* icon part start  */
+/* e-comemmerce part start  */
 
 #icon{
     margin-bottom: 50px;
     width: 1110px;
-    margin: 0px 165px;
+    margin: 0px 180px;
 }
 #icon hr{
     border: 1px solid lightgrey;
@@ -142,10 +142,10 @@ body{
 }
 
 
-/* icon part end */
+/* e-comemmerce part end */
 
 
-/* populer part start  */
+/* populer-collection part start  */
 
 #populer .tittle{
     margin-top: 100px;
@@ -155,20 +155,12 @@ body{
     font-size: 28px;
     color: #3A3A3A;
 }
-
-
-
-
-/* populer part end */
-
-/* collection part start */
-
 .collections{
     display: grid;
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin: 100px 0px;
+    margin: 100px 196px;
     justify-items: center;
 }
 .collection{
@@ -203,7 +195,7 @@ body{
 
 
 
-/* collection part end */
+/* popular collection part end */
 
 
 
@@ -211,11 +203,12 @@ body{
 /*   Featured part start */
 
 .feature{
-    display: grid;
-    grid-template-columns: repeat(2,1fr);
-    justify-items: end;
-    margin-top: 80px;
-   
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+.feature_text{
+    margin-left: 30px;
 }
 .feature_text h2{
     font-size: 33px;
