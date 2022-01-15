@@ -13,7 +13,9 @@ body{
 }
 
 
-/* menu part start */
+/*-------------
+ menu part start
+ ------------- */
 
 
 #menu{
@@ -29,7 +31,6 @@ body{
 }
 .main_items ul li{
     display: inline-block;
-    /* margin-left: 20px; */
 }
 .main_items ul li a{
     font-weight: 600;
@@ -58,11 +59,15 @@ body{
     transition: .5s;
 }
 
-/* menu part end */
+/*------------
+ menu part end 
+ -------------*/
 
 
 
-/* prebook part start  */
+/*----------------
+ prebook part start  
+ ----------------*/
 
 .conatiner{
     margin-left: 80px;
@@ -120,9 +125,14 @@ body{
 }
 
 
-/* prebook part end */
+/*----------------
+ prebook part end 
+ -----------------*/
 
-/* e-comemmerce part start  */
+
+/*------------------- 
+e-comemmerce part start 
+---------------------- */
 
 #icon{
     margin-bottom: 50px;
@@ -142,10 +152,14 @@ body{
 }
 
 
-/* e-comemmerce part end */
+/*--------------------
+ e-comemmerce part end 
+ ---------------------*/
 
 
-/* populer-collection part start  */
+/*---------------------------
+ populer-collection part start 
+ --------------------------- */
 
 #populer .tittle{
     margin-top: 100px;
@@ -160,7 +174,7 @@ body{
     grid-template-columns: repeat(3,1fr);
     grid-column-gap: 30px;
     grid-row-gap: 30px;
-    margin: 100px 196px;
+    margin: 100px 196px 40px 196px;
     justify-items: center;
 }
 .collection{
@@ -192,15 +206,29 @@ body{
     width: 300px;
     margin-bottom: 10px;
 }
+.see-more{
+    margin-left: 1200px;
+    color:#E02C6D;
+    font-size: 16px;
+    font-weight: 700;
+}
+.see-more:hover{
+    color: #0077b5;
+    transition: .5s;
+}
 
 
 
-/* popular collection part end */
+/*------------------------
+ popular collection part end 
+ --------------------------*/
 
 
 
 
-/*   Featured part start */
+/*--------------------
+   Featured part start 
+   ---------------------*/
 
 .feature{
     display:flex;
@@ -235,10 +263,14 @@ body{
 .feature_text i{
     padding-left: 10px;
 }
-/* Featured part end */
+/*------------------
+ Featured part end 
+ ------------------*/
 
 
-/* footer part start  */
+/*--------------------
+ footer part start  
+ -------------------*/
 
 footer{
     height: 240px;
@@ -283,4 +315,6 @@ footer{
     background-color: #E02C6D;
 }
 
-/* footer part start  */
+/*-----------------
+ footer part start 
+ ------------------- */
